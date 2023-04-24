@@ -13,27 +13,28 @@
 </head>
 <body>
     <header>
-    <div class="header">
+    <div class="header" id="home">
        <nav class="flex">
         <div class="logo">
             <img src="./assets/Sushan Logo.jpg" alt="">
         </div>
         <ul class="flex bar">
-            <li>Home</li>
-            <li>Services</li>
-            <li>About</li>
-            <li>Contact</li>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href=""><li>Services</li></a>
+            <a href=""><li>Contact</li></a>
         </ul>
        </nav>
        <h1>Welcome <br/>
         to <br/> Sush's Gym
       </h1>
     
-      <h2>find us on</h2>
+      
         <div class="media">
             
             <div>
-                <div class="flex">
+                <h2>find us on</h2>
+                <div class="flex call">
             <ul class="flex social-media">
                <a href="https://www.facebook.com/" target="_blank"><li><i class="fa-brands fa-facebook fa-flip" style="color: #0650d0;"></i></li></a>
                <a href="https://twitter.com/" target="_blank"><li><i class="fa-brands fa-twitter fa-fade" style="color: #005cfa;"></i></li></a>
@@ -41,9 +42,13 @@
               
             </ul>
             <div>
+                <button>REQUEST 5 DAYS FREE TRIAL </button>
+            </div>
+            <div class="reach">
+                <h2>Reach us on</h2>
                 <ul class="flex social-media">
                     <a href="tel:000000000"><li><i class="fa-solid fa-phone fa-beat" style="color: #f0f0f0;"></i></i></li></a>
-                   <a href="mailto:Sushan.maharjan18@gmail.com"></a>
+                   <a href="mailto:Sushan.maharjan18@gmail.com"><li><i class="fa-solid fa-envelope fa-beat" style="color: #0fb4eb;"></i></i></li></a>
                 </ul>
             </div>
         </div>
@@ -53,8 +58,37 @@
    
     </header>
     <!-- hero section -->
-    <section>
-       
+    <section class="why-us " id="about">
+       <h2 class="title">
+    Why us?
+       </h2>
+       <div class="flex background">
+        <div class="info">
+            <h3>Experienced and Knowledgeable Staff</h3>
+            <p>Our gym and fitness center is staffed by experienced and knowledgeable trainers and instructors who are dedicated to helping you achieve your fitness goals. Whether you're a beginner or an experienced fitness enthusiast, our team is here to support you on your fitness journey.</p>
+
+        </div>
+        <div class="info">
+            <h3>State-of-the-Art Equipment</h3>
+            <p>We invest in top-of-the-line gym equipment to ensure that you have access to the best tools to help you get fit and healthy. Our equipment is regularly maintained and updated to ensure that it's always in top condition.</p>
+
+        </div>
+        <div class="info">
+            <h3>Personalized Fitness Plans</h3>
+            <p>We understand that everyone's fitness goals are different, which is why we offer personalized fitness plans to help you achieve your specific goals. Our trainers and instructors will work with you to create a plan that's tailored to your individual needs and preferences.</p>
+
+        </div>
+        <div class="info">
+            <h3>Wide Range of Classes and Programs</h3>
+            <p>We offer a wide range of fitness classes and programs to suit all interests and fitness levels. From yoga and Pilates to high-intensity interval training (HIIT) and strength training, we have something for everyone.</p>
+
+        </div>
+        <div class="info">
+            <h3>Supportive Community</h3>
+            <p>Our gym and fitness center is a supportive community of like-minded individuals who are all working towards their health and fitness goals. You'll find motivation and encouragement from fellow members and our staff, making your fitness journey a fun and rewarding experience.</p>
+
+        </div>
+       </div>
     </section>
 </body>
 </html>
