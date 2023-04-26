@@ -89,7 +89,7 @@ color: rgba(242, 246, 0, 0.792);
     margin-top: 7rem;
     font-size: 10rem;
     font-family: 'Rubik Pixels', cursive;
-    color: rgba(243, 235, 8, 0.576);
+    color: rgba(243, 235, 8, 0.799);
     margin-left: 0;
 
 }
@@ -109,7 +109,7 @@ margin-bottom: 1rem;
 }
 .social-media a li i{
 font-size: 1.8rem;
-transition: all 0.3s linear;
+transition: all 0.2s ease-in-out;
 
 }
 .social-media a li i:hover{
@@ -155,7 +155,9 @@ justify-content: center;
 align-items: center;
 gap: 2rem;
 flex-wrap:wrap;
+
   }
+
 .info{
     width: auto;
     color: white;
@@ -218,7 +220,7 @@ transition: all 0.3s;
 
 /* contact us */
 .contact-us{
-    background: url(./assets/garrett-butler-UrJ-fn2iRUM-unsplash.jpg) center center no-repeat;
+    background: url(./assets/ricardo-henri-IBlWVIGnXag-unsplash.jpg) center center no-repeat;
     background-size: cover;
       background-attachment: fixed;
       height: 100vh;
@@ -272,3 +274,28 @@ label::after{
     background-color: rgba(244, 236, 10, 0.514);
     width: 350px;
 }
+
+.up{
+    width: 50px;
+    height: 50px;
+    color: aliceblue;
+    background-color: white;
+    border: 2px solid   rgba(255, 217, 0, 0.715);
+    box-shadow: 2px 2px rgba(3, 3, 234, 0.622);
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   float: right;
+   margin-right: 2rem;
+}
+
+.up i{
+    color: black;
+    font-size: 2.5rem;
+}
+.up:hover{
+    cursor: pointer;
+}
+
+
+/* /////airpods */
