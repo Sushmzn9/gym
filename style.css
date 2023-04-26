@@ -35,7 +35,7 @@ padding-bottom: 4rem;
     background: url(./assets/luis-vidal-FodEsaNZs48-unsplash.jpg) no-repeat center center;
   background-size: cover;
     background-attachment: fixed;
-    height: 120vh;
+min-height: 100vh;
 }
 
 
@@ -147,7 +147,8 @@ div button:hover{
     background: url(./assets/anastase-maragos-4dlhin0ghOk-unsplash.jpg) no-repeat center center;
     background-size: cover;
       background-attachment: fixed;
-      height: 100vh;
+      min-height: 100vh;
+
   }
 
   .background{
@@ -174,7 +175,8 @@ flex-wrap:wrap;
     background: url(./assets/sven-mieke-MsCgmHuirDo-unsplash.jpg) center center no-repeat;
     background-size: cover;
       background-attachment: fixed;
-      height: 120vh;
+      min-height: 100vh;
+
       opacity: 1;
       filter: brightness(-15);
 }
@@ -223,7 +225,8 @@ transition: all 0.3s;
     background: url(./assets/ricardo-henri-IBlWVIGnXag-unsplash.jpg) center center no-repeat;
     background-size: cover;
       background-attachment: fixed;
-      height: 100vh;
+      min-height: 100vh;
+
    
 }
  
