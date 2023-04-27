@@ -183,7 +183,7 @@ flex-wrap:wrap;
       filter: brightness(-15);
 }
 .area{
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: auto auto auto auto;
   gap: 2rem;
   justify-content: space-evenly;
   align-items: center;
